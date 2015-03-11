@@ -1,9 +1,9 @@
-# mayoeQTL
-Script to download MayoLOAD GWAS genotypes, MayoEGWAS gene expression data, and covariates for each data-set
+# rosmapmQTL
+Script to download Broad-Rush ROSMAP files containing genotypes, methylation and covariates for each data-set
 
 In addition, this script synchronizes the sample ids between all the data frames so that they are standard
 
-Author: Benjamin A Logsdon (ben.logsdon@sagebase.org)
+Author: Younes Mokrab (ymokrab@network.lilly.com)
 
 #Requirements:
 Synapse R client installed (https://www.synapse.org/#!Synapse:syn1834618)
@@ -12,9 +12,7 @@ Have a synapse account (https://www.synapse.org/#!RegisterAccount:0)
 
 Have plink installed (http://pngu.mgh.harvard.edu/~purcell/plink/)
 
-Data access approval to MayoLOADGWAS data (https://www.synapse.org/#!Synapse:syn2954402)
-
-Data access approval to MayoEGWAS data (https://www.synapse.org/#!Synapse:syn2910255)
+Data access approval to ROS/MAP data (https://www.synapse.org/#!Synapse:syn2954404)
 
 Unix like shell environment
 
@@ -22,7 +20,7 @@ Unix like shell environment
 clone repo into a local directory
 
 ``
-git clone https://github.com/blogsdon/mayoeQTL.git
+git clone https://github.com/genomeo/rosmapmQTL.git
 ``
 
 run script
